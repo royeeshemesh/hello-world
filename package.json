@@ -2,6 +2,7 @@
   "name": "my-first-project",
   "version": "0.1.0",
   "dependencies": {
+    "firebase": "^6.3.4",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"
@@ -10,7 +11,8 @@
     "start": "NODE_PATH=./ react-scripts start",
     "build": "NODE_PATH=./ react-scripts build",
     "test": "NODE_PATH=./ react-scripts test",
-    "eject": "NODE_PATH=./ react-scripts eject"
+    "eject": "NODE_PATH=./ react-scripts eject",
+    "deploy": "npm run build && firebase deploy"
   },
   "eslintConfig": {
     "extends": "react-app"
