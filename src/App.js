@@ -59,6 +59,7 @@ class App extends React.Component {
       <div className="container">
         <div className="row">
           <div className="col">
+            <h2>Messages app</h2>
             <form onSubmit={this.handleMessageSubmit}>
               <div className="form-group">
                 <input className="form-control" placeholder="type your message here" value={this.state.message}
