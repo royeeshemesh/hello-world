@@ -3,15 +3,7 @@ import React from 'react';
 import Firebase from 'firebase/app';
 import 'firebase/database';
 
-Firebase.initializeApp({
-  apiKey: "AIzaSyBs7sLGPvi_LRCQyojujkiLv_5h3UPrXvs",
-  authDomain: "my-first-project-385de.firebaseapp.com",
-  databaseURL: "https://my-first-project-385de.firebaseio.com",
-  projectId: "my-first-project-385de",
-  storageBucket: "my-first-project-385de.appspot.com",
-  messagingSenderId: "724286119664",
-  appId: "1:724286119664:web:32aa2d866fee5e5a"
-});
+Firebase.initializeApp({});
 
 class App extends React.Component {
   constructor(props) {
