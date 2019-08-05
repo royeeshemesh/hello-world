@@ -1,0 +1,30 @@
+{
+  "name": "my-first-project",
+  "version": "0.1.0",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1"
+  },
+  "scripts": {
+    "start": "NODE_PATH=./ react-scripts start",
+    "build": "NODE_PATH=./ react-scripts build",
+    "test": "NODE_PATH=./ react-scripts test",
+    "eject": "NODE_PATH=./ react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
